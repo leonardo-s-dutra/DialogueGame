@@ -83,12 +83,18 @@
     <ClCompile Include="optionbutton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="XMLManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="mainwindow.qrc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LOAD_STATUS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
