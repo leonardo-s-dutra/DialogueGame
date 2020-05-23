@@ -87,6 +87,7 @@
     <ClCompile Include="gamescreen.cpp" />
     <ClCompile Include="node.cpp" />
     <ClCompile Include="option.cpp" />
+    <ClCompile Include="optionswidget.cpp" />
     <ClCompile Include="startscreen.cpp" />
     <QtRcc Include="mainwindow.qrc" />
     <QtMoc Include="mainwindow.h" />
@@ -110,6 +111,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="dialoguewidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="optionswidget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
