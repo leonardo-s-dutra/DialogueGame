@@ -1,0 +1,33 @@
+QMainWindow
+{
+    background-color: #DDDDDD;
+}
+
+QSplitter::handle:vertical
+{
+    height: 2px;
+    border: 2px black;
+}
+
+
+QPushButton#Option
+{
+    border: none;
+}
+
+QPushButton#Menu
+{
+    background-color: #bcbcbc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+QPushButton#Menu:hover
+{
+    background-color: #a8a8a9;
+}
+
+QPushButton#Menu:pressed
+{
+    background-color: #888888;
+}

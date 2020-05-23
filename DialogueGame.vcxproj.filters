@@ -88,14 +88,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="mainwindow.qrc" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="LOAD_STATUS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="XMLManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
   </ItemGroup>
 </Project>
