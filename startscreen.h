@@ -1,15 +1,22 @@
 #pragma once
 
 #include <QWidget>
+#include <QPushButton>
+#include <QVBoxLayout>
+#include <QMessageBox>
+#include <QFileDialog>
+
 
 class StartScreen : public QWidget
 {
-	Q_OBJECT
-
+    Q_OBJECT
 public:
-	StartScreen(QWidget *parent = Q_NULLPTR);
-	~StartScreen();
+    explicit StartScreen(QWidget* parent = nullptr);
 
-private:
+public slots:
+    void getFile();
+    void showError(QString message);
 
+signals:
+    void fileSelected(QString path);
 };
