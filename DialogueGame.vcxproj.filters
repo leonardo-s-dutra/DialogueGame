@@ -87,4 +87,9 @@
   <ItemGroup>
     <QtRcc Include="mainwindow.qrc" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LOAD_STATUS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
